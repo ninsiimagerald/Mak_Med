@@ -1,15 +1,113 @@
-body{
+body {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+    background: hsl(120, 71%, 89%);
 }
-nav>ul>li{
-list-style: none;
-float: left;
-margin: 10px;
+
+ h1 {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 6px;
+    margin: 4px;
+    font-size: 72px;
+    font-weight: bolder;
+
+
+
 }
-nav>ul>li>a{
+
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Rubik', sans-serif;
+}
+
+nav {
+    position: relative;
+    top: 0px;
+    border-radius: 10px;
+}
+hr{
+    margin-bottom: 50px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+nav ul li a {
     text-decoration: none;
+    margin: 10px;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav ul li a:hover {
+    background: #1aa71a;
+    color: #fff;
     font-size: 24px;
     font-weight: bolder;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+marquee h3 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+marquee {
+    background: #1aa71a;
+    height: 50px;
+}
+#welcome{
+    font-family: 'Redressed', cursive;
+    font-size: 32px;
+    border-left: green solid 3px;
+    border-right: black solid 3px;
+    border-top: red solid 3px;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.register{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.registerBtn{
+    padding: 10PX;
+    border-radius: 12px 0 12px 0;
+    color: #1aa71a;
+    border-right: black solid 1px;
+    border-bottom: red solid 1px;
+    width: 200px;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.registerBtn:hover{
+    padding: 10PX;
+    border-radius:  0 12px 0 12px;
+    color: #fff;
+    background: #1aa71a;
+    border-left: black solid 1px;
+    border-top: red solid 1px;
+    border-right: white solid 1px;
+    border-top: white solid 1px;
+}
+.terms ul li{
+    list-style: none;
+    float: left;
+}
+.terms ul li a{
+    text-decoration: none;
+    margin: 5px;
+    color: black;
 }
