@@ -1,0 +1,2 @@
+correct the read post button ids and rearrange the css file
+style the hovering action of summarize and read button, and interchange their borders.
